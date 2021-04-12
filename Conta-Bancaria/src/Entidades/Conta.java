@@ -17,7 +17,7 @@ public class Conta {
     public Conta(int numeroConta, String cliente, double depositoInicial){
         this.numeroConta = numeroConta;
         this.cliente = cliente;
-        this.deposito(depositoInicial);
+        deposito(depositoInicial);
     }
 
     /* Getters e Setters */
